@@ -1,25 +1,25 @@
 <template>
-  <InputTextBox inputText="Test"></InputTextBox>
+  <InputTextBox></InputTextBox>
 </template>
 
 <script>
-import InputTextBox from './components/InputTextBox.vue'
+  import InputTextBox from './components/InputTextBox.vue'
 
-export default {
-  name: 'App',
-  components: {
-    InputTextBox
+  export default {
+    name: 'App',
+    components: {
+      InputTextBox
+    }
   }
-}
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+  }
 </style>
